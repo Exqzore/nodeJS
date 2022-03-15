@@ -1,0 +1,37 @@
+{
+  "name": "nodejs_epam",
+  "version": "1.0.0",
+  "description": "nodejs course",
+  "main": "src/task1.js",
+  "scripts": {
+    "task1": "nodemon src/task1.js",
+    "task2": "nodemon src/task2.js",
+    "task3": "babel src/task3 -d dist && nodemon dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exqzore/nodeJS.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Vadim <vadim.zinpyr@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Exqzore/nodeJS/issues"
+  },
+  "homepage": "https://github.com/Exqzore/nodeJS#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
